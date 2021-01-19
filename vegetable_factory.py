@@ -3,6 +3,7 @@ from tomato import Tomato
 
 
 class VegetableFactory:
+    """A factory of vegetables."""
 
     def getVegetable(vegetable):
         """Get object of type vegetable.
@@ -13,7 +14,7 @@ class VegetableFactory:
         Returns:
             Vegetable or None: the new vegetable on None if not exist
         """
-        if vegetable is None:
+        if not vegetable:
             return None
 
         vegetable = vegetable.upper()

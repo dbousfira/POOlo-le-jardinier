@@ -5,8 +5,8 @@ from tomato import Tomato
 
 
 class Garden():
-    """[summary]
-    """
+    """A garden w/ a list of vegetables."""
+
     def __init__(self) -> None:
         self.vegetables = []
         self.nb = 0
