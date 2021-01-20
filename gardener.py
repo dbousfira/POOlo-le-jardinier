@@ -41,6 +41,6 @@ if __name__ == "__main__":
     poolo.create_plant("tomato")
     poolo.create_plant("tomato", 28)
     poolo.create_plant("banana")
-    poolo.create_plant("carrot", 60)
+    poolo.create_plant("onion")
 
     print(*poolo.gardens, sep="\n")

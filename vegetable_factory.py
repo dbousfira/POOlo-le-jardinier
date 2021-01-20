@@ -1,5 +1,6 @@
 from carrot import Carrot
 from tomato import Tomato
+from onion import Onion
 
 
 class VegetableFactory:
@@ -23,3 +24,5 @@ class VegetableFactory:
             return Carrot()
         elif vegetable == "tomato".upper():
             return Tomato()
+        elif vegetable == "onion".upper():
+            return Onion()

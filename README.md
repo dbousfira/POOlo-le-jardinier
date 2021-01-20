@@ -13,17 +13,12 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-### Built With
-
-* [Anaconda](https://www.anaconda.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -43,5 +38,5 @@ To get a local copy up and running follow these simple steps.
 * Run garden.py:
 
 ```python
-python garden.py
+python gardener.py
 ```
