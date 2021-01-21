@@ -1,3 +1,4 @@
+from os import O_NOINHERIT
 from vegetable import Vegetable
 
 
